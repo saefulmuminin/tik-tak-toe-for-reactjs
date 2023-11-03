@@ -52,8 +52,12 @@ function StartScreen({ onStartGame }) {
       )}
       {!isLoading && (
         <div className="mt-4 text-center md:w-1/2 md:ml-4">
-          <h1 className="text-3xl font-bold">Selamat datang di Tic-Tac-Toe</h1>
-          <p className="mt-4 text-lg">Apakah Anda ingin memulai permainan?</p>
+          <h1 className="text-5xl font-bold text-white">
+            Selamat datang di Tic-Tac-Toe
+          </h1>
+          <p className="mt-4 text-lg text-white">
+            Apakah Anda ingin memulai permainan?
+          </p>
           <button
             className="px-4 py-2 mt-4 font-bold text-white transition-transform transform bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none hover:scale-110"
             onClick={handleStartGame}
